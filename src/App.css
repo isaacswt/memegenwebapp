@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+  min-height: 100%;
+  bottom: 0;
+}
+.app--container {
+  min-height: 100vh;
+  width: 100%;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header--container {
+  background-color: #672280;
+  display: flex;
+  border-radius: 9px;
+  height: 90px;
+  align-items: center;
+}
+
+.header--container > img {
+  height: 60px;
+  width: 60px;
+  left: 50px;
+  position: relative;
+}
+
+.header--container > h3 {
+  color: white;
+  font-size: 30px;
+  left: 60px;
+  position: relative;
+}
+
+.header--container > p {
+  color: white;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.memeform--container {
+  padding:36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form > input {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.form > button {
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 40px;
+  border: 1px solid #D5D4D8;
+
+  color: white;
+  font-size: 20px;
+  align-items: center;
+}
+.generate--button {
+  background-color: #672280;
+}
+ 
+.form > button:hover {
+  opacity: 0.6;
+}
+.memedisplay--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+.memedisplay--container > img{
+  height: 410px;
+  width: 580px;
+  border-radius: 10px;
+}
+
+.memedisplay--container > h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.topText {
+  position: absolute;
+  margin-bottom: auto;
+  color: white;
+  top: 10px;
+}
+
+.btmText {
+  position: absolute;
+  margin-bottom: auto;
+  color: white;
+  top: 300px;
+}
+.memearray--container{
+  margin-top: 30px;
+  display: flex;
+
+  width: 800px;
+  height: 250px;
+  padding: 15px;
+  overflow-x: auto;
+}
+
+
+.generated--meme > img {
+  height: 220px;
+  width: 180px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.save--meme {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #B6E851 ;
+}
